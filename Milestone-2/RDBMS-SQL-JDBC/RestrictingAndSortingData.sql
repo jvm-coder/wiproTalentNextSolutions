@@ -67,7 +67,26 @@ from departments where salary>&Salary;
 --        manager_id :103
 --        sorted_by : last_name
 
+select emp_id, last_name, salary, dept_id 
+from departments 
+where manager_id=&managerID 
+order by &column;
 
 -- 12. Display all employee last names in which the third letter of the name is “a”.
+
+select last_name 
+from departments 
+where first_name like '__a%';
+
 -- 13. Display the last names of all employees who have both an “a” and an “e” in their last name.
--- 14. Display the last name, job, and salary for all employees whose jobs are either those of a sales representative or of a stock clerk, and whose salaries are not equal to $2,500, $3,500, or $7,000.
+
+select last_name 
+from departments 
+where last_name like '%a' and last_name like '%e';
+
+-- 14. Display the last name, job, and salary for all employees whose jobs are either those of a sales representative 
+--     or of a stock clerk, and whose salaries are not equal to $2,500, $3,500, or $7,000.
+
+select last_name, job_id, salary 
+from departments 
+where ((job_title in ('sales_rep', 'stock_clerk')) and (salary not in (2500, 3500, 7000)));
