@@ -15,8 +15,11 @@ create table Dept (Dept_ID number(7) primary key,
 --     Correct by giving 30 and Accounts
 
 insert into dept (select dept_id, dept_name from departments);
+
 insert into dept values (10, 'ACCOUNTS');
+
 insert into dept values (20, 'IT');
+
 insert into dept values (30, 'ACCOUNTS');
 
 -- 3.  Create the EMP table based on the following table instance chart. Save the statement in a script called lab_10_03.sql , and then execute the statement in the script to create the table. Confirm that the table is created.
@@ -33,3 +36,17 @@ insert into dept values (30, 'ACCOUNTS');
 --     Insert 101,Ram,Krishna,20
 --     Insert 102,Gopi,null,40
 --     Insert 103,null,ram,20
+
+create table emp (id number(7) primary key, 
+  last_name varchar2(25) not null, 
+  first_name varchar2(25), 
+  dept_id number(7), 
+  FOREIGN KEY (dept_id) REFERENCES dept(dept_id));
+
+insert into emp values (101, 'Sam', 'Sundar', 10);
+
+insert into emp values (101, 'Ram', 'Krishna', 20);
+
+insert into emp values (102, 'Gopi', null, 49);
+
+insert into emp values (103, null, 'Ram', 20);
