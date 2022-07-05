@@ -75,8 +75,6 @@ class jdbc6{
             fees = sc.nextDouble();
             
             String query = "Insert into stud values ("+rollno+", '"+name+"', '"+standard+"', '"+dob+"', "+fees+")";
-            //stmt.executeQuery("Insert into stud values (7896, 'ASDS', 'II', '14-MAY-12', 7845.3)");
-            //stmt.executeQuery("Insert into stud values ("+Integer.toString(rollno)+", "+name+", "+standard+", "+dob+", "+Double.toString(fees)+")");
             stmt.executeQuery(query);
             System.out.println("Inserted successfully into the table .");
             con.close();
