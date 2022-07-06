@@ -1,7 +1,7 @@
 ![Screenshot 2022-07-07 015405](https://user-images.githubusercontent.com/56172886/177636617-614ea820-0522-43a5-8254-b0dd330b3235.png)
     
     
-    // Write code here...
+    	// Write code here...
 		/*BigDecimal inp1 = new BigDecimal(input1);
 		BigDecimal inp2 = new BigDecimal(input2);
 
