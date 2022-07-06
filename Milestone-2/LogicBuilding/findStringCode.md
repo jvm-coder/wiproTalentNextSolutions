@@ -1,5 +1,4 @@
-    		![Screenshot 2022-07-07 002831](https://user-images.githubusercontent.com/56172886/177623354-8d20ec5d-ef9d-408f-a803-0df1a05e0307.png)
-
+![Screenshot 2022-07-07 002831](https://user-images.githubusercontent.com/56172886/177623488-e39fdeeb-5cc9-45a3-8553-a92c2a33ebd2.png)
 		
 		int sum=0;
 		String sumStr="";
