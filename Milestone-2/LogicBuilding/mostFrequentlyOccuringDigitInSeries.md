@@ -1,4 +1,8 @@
-HashMap<Integer, Integer> mp = new HashMap<Integer, Integer>();
+![Screenshot 2022-07-07 000532](https://user-images.githubusercontent.com/56172886/177619481-278e64b6-babb-4507-a351-b7d6185b78f4.png)
+
+
+		HashMap<Integer, Integer> mp = new HashMap<Integer, Integer>();
+		
 		int maxKey=0;
 		int maxVal=0;
 
