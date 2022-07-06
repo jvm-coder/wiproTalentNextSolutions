@@ -1,7 +1,7 @@
 ![Screenshot 2022-07-07 004939](https://user-images.githubusercontent.com/56172886/177626441-9a4b17f4-ed12-46a3-bda3-4872def23632.png)
 
     
-    		// Write code here...
+    	// Write code here...
 		int pin=0;
 		String[] arr = input1.split(" ");
 
