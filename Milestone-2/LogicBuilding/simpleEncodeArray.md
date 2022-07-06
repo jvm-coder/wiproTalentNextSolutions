@@ -1,7 +1,7 @@
 ![Screenshot 2022-07-06 225706](https://user-images.githubusercontent.com/56172886/177609132-b7421855-2a57-4805-9f66-a378fdaeaccb.png)
 
     
-    //Write code here...
+    	//Write code here...
 		int[] arr = new int[input2];
 		arr[input2-1]=input1[input2-1];
 		int sum=arr[input2-1];
@@ -13,4 +13,4 @@
 		}
 
 		Result obj = new Result(arr[0], sum);
-        return obj;
+        	return obj;
