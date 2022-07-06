@@ -1,4 +1,4 @@
-    ![Image](https://user-images.githubusercontent.com/56172886/177608828-fc3bab03-7fdb-4a55-a22d-6ca74d5e71ac.png)
+![Screenshot 2022-07-06 225706](https://user-images.githubusercontent.com/56172886/177609132-b7421855-2a57-4805-9f66-a378fdaeaccb.png)
 
     
     //Write code here...
