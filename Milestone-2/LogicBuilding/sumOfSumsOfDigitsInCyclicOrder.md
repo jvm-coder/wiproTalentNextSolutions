@@ -3,7 +3,7 @@
     
     
     
-    int sum=0;
+    		int sum=0;
 		String num = Integer.toString(input1);
 		int len = num.length();
 		for(int i=0;i<len;i++)
