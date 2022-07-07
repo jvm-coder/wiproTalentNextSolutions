@@ -1,7 +1,7 @@
 ![Screenshot 2022-07-07 225226](https://user-images.githubusercontent.com/56172886/177833169-64575578-1ac3-4b0d-980a-90a43f35a939.png)
 
     
-    		// Write code here...
+    	// Write code here...
 		String output="";
 		input1 = input1.toUpperCase();
 		input2 = input2.toUpperCase();
