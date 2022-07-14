@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+
+<body>
+	<script language="javascript">
+	function checkForm() {
+		var x = document.getElementById("pno");
+		var str = /^([1-9]{3})[-\s\.]?([0-9]{3})[-\s\.]?([0-9]{4})$/;
+		if(x.value.length == 0)
+		{
+			alert("Phone number field cannot be empty");
+			x.focus();
+		}
+		else if(x.value.length < 10)
+		{
+			alert("Should be 10 digits");
+			x.focus();
+		}
+		else if(!(x.value.match(str)))
+		{
+			alert("Not valid Format");
+			x.focus();
+		}
+		
+	}
+	</script>
+<body>
+Phone Number : <input type="textbox" id="pno" />
+<br>
+<input type="submit" value="SUBMIT" onClick="checkForm()" />
+<br>
+</body>
+</html>
