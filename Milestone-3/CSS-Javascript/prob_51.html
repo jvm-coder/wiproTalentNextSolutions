@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+
+<body>
+	<script language="javascript">
+	function checkForm() {
+		var x = document.getElementById("pass");
+		var strnum = /\d/;
+		var strup = /[A-Z]/;
+		var strlow = /[a-z]/;
+		if(x.value.length > 20 || x.value.length<6)
+		{
+			alert("Password should be between 6-20 characters.");
+			x.focus();
+		}
+		else if(!(strnum.test(x.value)))
+		{
+			alert("Must contain a number");
+			x.focus();
+		}
+		else if(!(strup.test(x.value)))
+		{
+			alert("Must contain an uppercase letter");
+			x.focus();
+		}
+		else if(!(strlow.test(x.value)))
+		{
+			alert("Must contain a lowercase letter");
+			x.focus();
+		}
+	}
+	</script>
+<body>
+Password : <input type="password" id="pass" />
+<br>
+<input type="submit" value="SUBMIT" onClick="checkForm()" />
+<br>
+</body>
+</html>

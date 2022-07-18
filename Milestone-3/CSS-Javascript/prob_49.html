@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+
+<body>
+	<script language="javascript">
+	function checkForm() {
+		var x = document.getElementById("member");
+		var y = document.getElementById("pass");
+		if(x.value.length == 0)
+		{
+			alert("Member field cannot be empty");
+			x.focus();
+		}
+		else if(isNaN(x.value))
+		{
+			alert("Member should be a number");
+			x.focus();
+		}
+		else if(y.value.length <= 4)
+		{
+			alert("Password must be entered and should have more than 4 characters");
+			y.focus();
+		}
+	}
+	</script>
+<body>
+Number of members : <input type="textbox" id="member" />
+<br>
+Password : <input type="password" id="pass" />
+<br>
+<input type="submit" value="SUBMIT" onClick="checkForm()" />
+<br>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+
+<body>
+	<script language="javascript">
+	function capitalize(str)
+	{
+		var i;
+		for(i=0;i<str.length;i++)
+		{
+			if(i==0)
+				document.write(str[i].toUpperCase());
+			else
+				if(str[i-1] == ' ')
+					document.write(str[i].toUpperCase());
+				else
+					document.write(str[i]);
+		}
+	}
+	capitalize("hello world");
+	</script>
+<body>
+</html>

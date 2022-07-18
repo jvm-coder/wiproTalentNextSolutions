@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+
+<body>
+	<script language="javascript">
+		var x = 32243;
+		var y = x;
+		var rev = 0;
+		while(x>0)
+		{
+			rev = (rev*10)+(x%10);
+			x = parseInt(x/10);
+		}
+		if(rev == y)
+			document.write("Palindrome");
+		else
+			document.write("Not Palindrome");
+	</script>
+<body>
+</html>

@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>ASSIGNMENT</title>
+</head>
+
+<body>
+	<script language="javascript">
+		window.setTimeout(func,1000);
+		function func() {
+			var today= new Date().toLocaleTimeString();
+			document.getElementById("box1").value = today.substring(0,8);
+			window.setTimeout(func,1000);
+		}
+	</script>
+<body>
+TIME  : 
+<input type="textbox" id="box1" />
+</html>

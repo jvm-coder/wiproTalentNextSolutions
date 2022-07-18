@@ -1,0 +1,8 @@
+CREATE TABLE  "STUD" 
+
+   (	"ROLLNO" NUMBER, 
+	"NAME" VARCHAR2(20), 
+	"GRADE" VARCHAR2(2), 
+	"DOB" DATE, 
+	"FEE" NUMBER
+   ) ;
